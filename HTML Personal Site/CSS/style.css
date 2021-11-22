@@ -1,0 +1,26 @@
+/***** STYLE SELECTORS*********************/
+body{
+  background-color:white;
+}
+hr {
+  background-color: white;
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  height: 0;
+  width: 10%;
+}
+h1{color: #66BFBF}
+h1:hover{color: gold}
+h3{color: #66BFBF}
+
+/************CLASS SELECTORS**********/
+.class_name{
+  align-content: blue;
+}
+
+/****** ID SELECTORS****/
+#ID_name{
+
+}
