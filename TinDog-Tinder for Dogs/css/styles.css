@@ -1,29 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
 
-#title{
-  background-color: #ff4668;
-  color: #fff;
-}
+
 
 body{
-  font-family:Montserrat;
+  font-family:"Montserrat";
+  text-align: center;
 }
-h1{
+
+
+h1, h2, h3, h4, h5, h6{
   font-family: "Montserrat";
   font-weight: 900;
-  size: 3.5rem;
-  line-height: 1.5;
 }
-h2{
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
+
+h1{
+
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
+
 h3{
-  font-family: "Montserrat";
-  font-weight: 900;
   font-size: 1.5rem;
 }
 
@@ -31,10 +28,19 @@ p{
   color: #8f8f8f;
 }
 
-
-.container-fluid{
-  padding: 3% 15% 12%;
+/* <-------Heading---->*/
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
 }
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+
 
 /* <-------Nav bar ---->*/
 .navbar{
@@ -64,11 +70,21 @@ p{
 }
 
 /* <-------Title---->*/
+#title{
+  background-color: #ff4668;
+  color: #fff;
+  text-align: left;
+}
+
+
 .title-img{
   width:60%;
   transform: rotate(25deg);
   position:absolute;
   right: 30%;
+}
+.container-fluid{
+  padding: 3% 15% 12%;
 }
 
 /* <-------Features---->*/
@@ -81,7 +97,7 @@ p{
 }
 
 .feature-box{
-  text-align: center;
+
   padding: 5%;
 
 }
@@ -96,8 +112,6 @@ p{
 
 /* <-------Testimonials---->*/
 #testimonials{
-
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -109,10 +123,13 @@ p{
 .carousel-item{
     padding: 7% 15%;
 }
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 /* <-------Press Section---->*/
 #press{
-  text-align: center;
   background-color: #ef8172;
   padding-bottom: 3%;
 }
@@ -124,11 +141,16 @@ p{
 
 /* <-------Pricing Section---->*/
 #pricing{
-  text-align: center;
   padding: 100px;
 }
+
 .pricing-col{
   padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 @media (max-width:1028px) {
@@ -147,17 +169,10 @@ p{
   background-color: #ff4668;
   color: #fff;
   padding: 7% 15%;
-  text-align: center;
-}
-.cta-header{
-  font-family: Montserrat;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
+
 #footer{
-  text-align: center;
 }
 
 .social-icon{
